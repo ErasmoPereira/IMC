@@ -1,0 +1,58 @@
+:root{
+    --primary-color: rgb(23, 224, 174);
+}
+*{
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body{
+    background-color: var(--primary-color);
+    margin: 0;
+    padding: 0;
+}
+.container{
+    
+    max-width: 640px;
+    margin: 30px auto; /* O 'auto' coloca o conteudo no meio da pagina*/
+    background-color: aqua;
+    padding: 20px;
+    font-size: large;
+    line-height: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form h1 {
+margin: 30px auto;
+}
+
+form input, form label, from button {
+    display: block; /* faz com que fiquem um embaixo do outro*/
+    width: 80%; /* Largura da pagina*/
+    margin-bottom: 10px; /* Distancia entre as caixas*/
+
+}
+
+form input{
+    font-size: 20px;
+    height: 30px;
+    padding: 0 20px;
+}
+form input:focus{
+    outline: 2px solid var(--primary-color); /* Cor pra saber onde esta clicando*/
+}
+form button {
+    border: none;
+    background-color: var(--primary-color);
+    color: #fff; /* COr das letras */
+    font-size: 18px;/* Tamanho da fonte em questao da altura*/
+    font-weight: 700px;
+    cursor: pointer;
+}
+.paragrafo-resultado, .bad{
+    background:rgb(10, 185, 25);
+    padding: 10px 20px;
+}
+.bad{
+    background: rgb(185, 30, 10); ;
+}
